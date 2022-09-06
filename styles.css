@@ -76,3 +76,15 @@ h1 {
 .checked {
     color: orange;
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+    justify-self: flex-end;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
