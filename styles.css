@@ -14,11 +14,13 @@ body{
     padding: 2em;
     justify-content: space-around;
     align-content: center;
+    height: 100vh;
 }
 
 header{
     color: hsl(300, 43%, 22%);
     font-weight: 400;
+    max-width: 325px;
 }
 
 h1 {
@@ -29,11 +31,13 @@ h1 {
 .rated {
     background-color: hsl(300, 24%, 96%);
     color: hsl(300, 43%, 22%);
+    max-width: 325px;
 }
 
 .card {
     background-color: hsl(300, 43%, 22%);
     color: white;
+    max-width: 325px;
 }
 
 .card span{
