@@ -2,8 +2,6 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body{
@@ -11,7 +9,7 @@ body{
     font-family: 'League Spartan', sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 2em;
+    padding: 1em;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
@@ -37,10 +35,11 @@ h1 {
     background-color: hsl(300, 24%, 96%);
     color: hsl(300, 43%, 22%);
     max-width: 325px;
+    width: 325px;
     padding: 1em;
     font-weight: 700;
     margin-bottom: 1rem;
-    border-radius: 1em;
+    border-radius: .5em;
 }
 
 .card {
@@ -49,7 +48,7 @@ h1 {
     max-width: 325px;
     padding: 1em;
     margin-bottom: 1rem;
-    border-radius: 1em;
+    border-radius: .5em;
 }
 
 .card span{
