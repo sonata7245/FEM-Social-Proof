@@ -21,25 +21,43 @@ header{
     color: hsl(300, 43%, 22%);
     font-weight: 400;
     max-width: 325px;
+    margin-bottom: 2rem;
 }
 
 h1 {
     font-weight: 700;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .rated {
     background-color: hsl(300, 24%, 96%);
     color: hsl(300, 43%, 22%);
     max-width: 325px;
+    padding: 1em;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .card {
     background-color: hsl(300, 43%, 22%);
     color: white;
     max-width: 325px;
+    padding: 1em;
+    margin-bottom: 1rem;
 }
 
 .card span{
     color: hsl(333, 80%, 67%);
+}
+
+.card-header{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.review-img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
 }
