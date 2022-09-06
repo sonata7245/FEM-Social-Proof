@@ -37,6 +37,7 @@ h1 {
     padding: 1em;
     font-weight: 700;
     margin-bottom: 1rem;
+    border-radius: 1em;
 }
 
 .card {
@@ -45,6 +46,7 @@ h1 {
     max-width: 325px;
     padding: 1em;
     margin-bottom: 1rem;
+    border-radius: 1em;
 }
 
 .card span{
@@ -60,4 +62,8 @@ h1 {
     max-width: 30px;
     max-height: 30px;
     border-radius: 50%;
+}
+
+.checked {
+    color: orange;
 }
